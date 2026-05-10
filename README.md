@@ -51,11 +51,11 @@ Once requirements are locked, give the 30,000-foot view before going deep. For a
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │                        Mobile Client (RN)                        │
-│  ┌────────────┐  ┌─────────────┐  ┌──────────┐  ┌────────────┐  │
-│  │ WebSocket  │  │  Local DB   │  │  Media   │  │   Push     │  │
-│  │  Manager  │  │ (SQLite /   │  │  Upload  │  │  Handler   │  │
-│  │           │  │  WatermelonDB│  │  (S3)   │  │ APNs/FCM   │  │
-│  └─────┬─────┘  └─────────────┘  └────┬─────┘  └────────────┘  │
+│  ┌────────────┐  ┌─────────────┐  ┌──────────┐  ┌────────────┐   │
+│  │ WebSocket  │  │  Local DB   │  │  Media   │  │   Push     │   │
+│  │  Manager   │  │ (SQLite /   │  │  Upload  │  │  Handler   │   │
+│  │            │  │ WatermelonDB│  │  (S3)    │  │ APNs/FCM   │   │
+│  └─────┬──────┘  └─────────────┘  └────┬─────┘  └────────────┘   │
 └────────┼─────────────────────────────────────────────────────────┘
          │ WebSocket (persistent)          │ HTTPS (direct upload)
          ▼                                 ▼
@@ -79,7 +79,7 @@ Once requirements are locked, give the 30,000-foot view before going deep. For a
        ┌──────────┐      ┌──────────────┐
        │Cassandra │      │ Notification │
        │(messages)│      │ Service      │
-       └──────────┘      │ (APNs/FCM)  │
+       └──────────┘      │ (APNs/FCM)   │
                          └──────────────┘
 ```
 
