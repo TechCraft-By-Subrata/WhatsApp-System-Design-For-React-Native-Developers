@@ -1,6 +1,6 @@
 # I Was Asked to Design WhatsApp in a Senior Interview. Here's My Full Architecture Breakdown.
 
-**By Subrata Kumar — Tech Lead, React Native**
+*By Subrata Kumar — Tech Lead, React Native | 12 min read*
 
 ---
 
@@ -13,6 +13,8 @@ The problem wasn't that I didn't know anything. The problem was that I knew *abo
 Silence. Not the confident, thinking-out-loud kind. The kind where you feel the room change.
 
 That question — that specific routing problem — is where most answers fall apart. This article is the full breakdown I wish I'd had before walking into that room. Not a surface-level description of WhatsApp. An actual system design answer, with the trade-offs named and the reasoning made explicit.
+
+> **A quick note if you're an RN developer:** You won't build this backend yourself. But as a senior engineer, you'll be expected to understand the system your app lives inside — and that's exactly what interviews test. Some of this (WebSockets, push notifications, offline handling, media uploads) you already deal with daily. The rest is context that makes you a better collaborator with backend teams — and the thing that gets you past system design rounds.
 
 ---
 
