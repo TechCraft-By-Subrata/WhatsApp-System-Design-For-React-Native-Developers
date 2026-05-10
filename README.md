@@ -1,6 +1,6 @@
 # I Was Asked to Design WhatsApp in a Senior Interview. Here's My Full Architecture Breakdown.
 
-*By Subrata Kumar — Tech Lead, React Native *
+**By Subrata Kumar — Tech Lead, React Native **
 
 ---
 
