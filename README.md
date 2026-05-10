@@ -175,7 +175,7 @@ Users don't wait for connectivity before typing. Your app shouldn't either.
 User types message (offline)
     │
     ▼
-Message written to Local DB (SQLite / WatermelonDB / MMKV)
+Message written to Local DB (SQLite / WatermelonDB / MMKV /Realm )
 Status: PENDING
     │
     ▼ [when connection restores]
