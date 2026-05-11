@@ -775,7 +775,7 @@ Every question walked through end-to-end. Server side *and* client side. With di
 
 The course isn't live yet. But if this article gave you something — join the waitlist. You'll be the first to know when it launches, and waitlist members get early access and a discount.
 
-**[Join the waitlist → rnm.subraatakumar.com/system-design](https://rnm.subraatakumar.com/system-design)**
+**[Join the waitlist → rnm.subraatakumar.com/courses/system-design]([https://rnm.subraatakumar.com/system-design](https://rnm.subraatakumar.com/courses/system-design))**
 
 ---
 
